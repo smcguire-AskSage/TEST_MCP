@@ -14,6 +14,22 @@ def bubble_sort(arr):
 
 # Example usage
 if __name__ == "__main__":
-    arr = [64, 34, 25, 12, 22, 11, 90]
-    bubble_sort(arr)
-    print("Sorted array is:", arr)
+    # Test Case 1: Original test case
+    arr1 = [64, 34, 25, 12, 22, 11, 90]
+    print("Original array 1:", arr1)
+    bubble_sort(arr1)
+    print("Sorted array 1:", arr1)
+    print()
+    
+    # Test Case 2: Already sorted array
+    arr2 = [1, 2, 3, 4, 5]
+    print("Original array 2 (already sorted):", arr2)
+    bubble_sort(arr2)
+    print("Sorted array 2:", arr2)
+    print()
+    
+    # Test Case 3: Reverse sorted array
+    arr3 = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+    print("Original array 3 (reverse sorted):", arr3)
+    bubble_sort(arr3)
+    print("Sorted array 3:", arr3)
